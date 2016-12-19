@@ -1,0 +1,37 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout01"
+    android:layout_width="fill_parent"
+    android:orientation="vertical"
+    android:layout_height="fill_parent">
+
+    <TextView android:text="Enter the URL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/urlString"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/readhtml"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="3"
+        android:onClick="clickButton"
+        android:textSize="30px"
+        android:text="Read (HTML)" />
+
+    <Button
+        android:id="@+id/weather"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="3"
+        android:onClick="clickButton"
+        android:textSize="30px"
+        android:text="City Temperature (Json)" />
+
+    <TextView android:id="@+id/result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
